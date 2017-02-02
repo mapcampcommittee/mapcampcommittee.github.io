@@ -1,7 +1,7 @@
 # Site settings
 title: Map Camp
 description: Come Learn about Mapping w/ Simon Wardley
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+baseurl: "http://www.map-camp.com" # for test: remove string '/space-jekyll-templa' to ''
 url: "http://www.map-camp.com" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: mapcamp
