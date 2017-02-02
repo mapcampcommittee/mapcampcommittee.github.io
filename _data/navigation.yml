@@ -1,7 +1,7 @@
 # main links
 main:
    - title: "Location"
-     url: _pages/location/
+     url: /_pages/location/
   #- title: "Sponsors"
   #   url: _pages/sponsors.html
   # - title: "About"
