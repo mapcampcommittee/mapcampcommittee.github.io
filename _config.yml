@@ -66,13 +66,15 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : Organization # Person or Organization (defaults to Person)
   name                   : MapCamp # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://www.instagram.com/mapcamp/" # An array of links to social media profiles
+    - "https://twitter.com/map_camp"
 
 # Analytics
 analytics:
-  provider               : true # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-91358442-1
+    tracking_id          : "UA-91358442-1"
 
 
 # Site Author
