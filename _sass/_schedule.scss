@@ -1,0 +1,25 @@
+table.schedule {
+  width: 100%;
+  border: 0px;
+
+  & + table {
+    margin-top: 0em;
+  }
+}
+
+.schedule thead {
+  background-color: $lighter-gray;
+  border-bottom: 1px solid $light-gray;
+}
+
+.schedule th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+  border-right: 0px solid $light-gray;
+}
+
+.schedule td {
+  border-bottom: 0.5px solid $light-gray;
+  border-right: 0px solid $light-gray;
+}
