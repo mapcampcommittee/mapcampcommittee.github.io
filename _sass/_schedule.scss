@@ -23,3 +23,7 @@ table.schedule {
   border-bottom: 0.5px solid $light-gray;
   border-right: 0px solid $light-gray;
 }
+
+.schedule tr.schedule-break {
+  background-color: $lighter-gray;
+}
