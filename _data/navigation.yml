@@ -4,6 +4,8 @@ main:
      url: /_pages/location/
    - title: "Code of Conduct"
      url: /_pages/code_of_conduct/
+   - title: "Schedule"
+     url: /_pages/schedule/
   #- title: "Sponsors"
   #   url: _pages/sponsors.html
   # - title: "About"
