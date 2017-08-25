@@ -6,6 +6,8 @@ main:
      url: /_pages/code_of_conduct/
    - title: "Schedule"
      url: /_pages/schedule/
+   - title: "What is Mapping?"
+     url: /_pages/what_is_mapping/
   #- title: "Sponsors"
   #   url: _pages/sponsors.html
   # - title: "About"
