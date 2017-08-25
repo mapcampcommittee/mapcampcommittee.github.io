@@ -2,10 +2,12 @@
 main:
    - title: "Location"
      url: /_pages/location/
-   - title: "Code of Conduct"
-     url: /_pages/code_of_conduct/
    - title: "Schedule"
      url: /_pages/schedule/
+   - title: "Registration"
+     url: /_pages/registration
+   - title: "Code of Conduct"
+     url: /_pages/code_of_conduct/
    - title: "What is Mapping?"
      url: /_pages/what_is_mapping/
   #- title: "Sponsors"
