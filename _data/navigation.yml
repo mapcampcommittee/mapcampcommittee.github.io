@@ -8,6 +8,8 @@ main:
   #    url: /_pages/registration
    - title: "What is Mapping?"
      url: /_pages/what_is_mapping/
+   - title: "Events"
+     url: /_pages/events/
    - title: "Code of Conduct"
      url: /_pages/code_of_conduct/
    - title: "Slack"
