@@ -27,3 +27,16 @@ table.schedule {
 .schedule tr.schedule-break {
   background-color: $lighter-gray;
 }
+
+.schedule tr.schedule-track {
+  border-bottom: $dark-gray solid 1px;
+}
+
+.schedule tr.schedule-section {
+  border-bottom-style: none;
+  line-height: .5em;
+}
+
+.schedule tr.schedule-section td {
+  border-bottom-style: none;
+}
