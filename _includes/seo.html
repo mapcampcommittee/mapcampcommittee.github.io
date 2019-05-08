@@ -54,7 +54,10 @@
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
+  {% comment %}
   <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+  {% endcomment %}
+  <meta name="twitter:title" content="Map Camp">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 
