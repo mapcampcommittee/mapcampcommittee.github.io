@@ -69,6 +69,7 @@ social:
   links:
     - "https://www.instagram.com/mapcamp/" # An array of links to social media profiles
     - "https://twitter.com/map_camp"
+    - "https://www.linkedin.com/company/map-camp"
 
 # Analytics
 analytics:
@@ -96,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/company/map-camp"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
