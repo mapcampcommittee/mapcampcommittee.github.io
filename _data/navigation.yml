@@ -12,6 +12,8 @@ main:
      url: /_pages/events/
    - title: "Code of Conduct"
      url: /_pages/code_of_conduct/
+   - title: "Green"
+     url: /_pages/green/
    - title: "Slack"
      url: https://map-camp-slack-invite.herokuapp.com/
   #- title: "Sponsors"
