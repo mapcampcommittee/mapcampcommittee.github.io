@@ -9,6 +9,17 @@ classes:
 - dark-theme
 ---
 
+<style>
+  .mobile {
+      display: none;
+  }
+
+  @media screen and (max-width: 540px) {
+      .mobile {
+          display: inherit;
+      }
+  }
+</style>
 
 <div style="margin: 0 auto 48px auto; max-width: 302px; text-align: center;">
   <img src="/assets/images/mapcampgermany2020.svg" style="max-width: 300px" />
@@ -114,7 +125,21 @@ classes:
     </tr>
 
     <tr class="schedule-break">
-      <th style="width: 10%; vertical-align: text-top;"></th>
+      <th style="width: 10%; vertical-align: bottom;">
+        <div class="mobile" style="width: 26px; height: 26px;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 61.721">
+              <g fill="#555555">
+                  <path
+                      d="M34.829 14.621h-4.096c0-5.655-4.584-10.24-10.239-10.24s-10.239 4.584-10.239 10.24H6.159C6.159 6.704 12.577.286 20.494.286s14.335 6.418 14.335 14.335z" />
+                  <path
+                      d="M45.068 28.955a6.026 6.026 0 00-3.011.819 6.144 6.144 0 00-5.181-2.867 6.009 6.009 0 00-3.01.819 6.142 6.142 0 00-7.229-2.498V14.621c0-3.394-2.75-6.144-6.144-6.144s-6.144 2.75-6.144 6.144v22.731l-4.567-3.113a5.997 5.997 0 00-3.625-1.188 6.143 6.143 0 00-4.34 10.505L18.2 58.506a12.613 12.613 0 008.437 3.215h10.239c7.917 0 14.335-6.418 14.335-14.335V35.099a6.143 6.143 0 00-6.143-6.144zm2.048 18.431c0 5.655-4.584 10.239-10.239 10.239h-10.24a8.543 8.543 0 01-5.652-2.047l-16.28-14.95a2.049 2.049 0 01-.594-1.433 2.048 2.048 0 013.277-1.639l11.059 7.577V14.621a2.047 2.047 0 114.096 0v22.526h4.096v-6.144a2.048 2.048 0 014.096 0v6.144h4.096v-4.096a2.048 2.048 0 014.096 0v4.096h4.096v-2.048a2.047 2.047 0 014.096 0v12.287z" />
+              </g>
+              <path fill="none" d="M36.749 0h27.25v27.251h-27.25z" />
+              <path fill="#555555"
+                  d="M52.85 5.11l-1.374 1.191 7.357 6.472H38.136v1.704h20.697l-7.357 6.472 1.374 1.192 9.809-8.516z" />
+          </svg>
+      </div>
+      </th>
       <th style="width: 18%; vertical-align: text-top;">Track 1<br>Business</th>
       <th style="width: 18%; vertical-align: text-top;">Track 2<br>Human Resources</th>
       <th style="width: 18%; vertical-align: text-top;">Track 3<br>Software Development and Cybersecurity</th>
