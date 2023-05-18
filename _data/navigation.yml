@@ -15,7 +15,7 @@ main:
   # - title: "Green"
   #   url: /_pages/green/
    - title: "Slack"
-     url: https://map-camp-slack-invite.herokuapp.com/
+     url: /_pages/slack/
   #- title: "Sponsors"
   #   url: _pages/sponsors.html
   # - title: "About"
